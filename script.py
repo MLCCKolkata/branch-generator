@@ -27,3 +27,4 @@ for account in df["github"]:
     l[3]=subprocess.Popen(shlex.split("git commit -a -m 'Code Committed for {}'".format(account))).wait()
     l[4]=subprocess.Popen(shlex.split("git push origin {}".format(account))).wait()
     print(account,"->","success" if sum(l)==0 else "Failed! in step",np.argmax(abs(np.array(l)))+1)
+    print("\n\n\n\n\n")
