@@ -1,3 +1,9 @@
+'''
+Author: Adrish Dey
+Website: https://member.acm.org/~adrishd
+Date: 26th September, 2018
+
+'''
 import pandas as pd
 import shutil
 import numpy as np
